@@ -1,4 +1,0 @@
-StudentName,Maths,Science,English
-John,78,88,90
-Alice,90,85,95
-Bob,70,60,80
