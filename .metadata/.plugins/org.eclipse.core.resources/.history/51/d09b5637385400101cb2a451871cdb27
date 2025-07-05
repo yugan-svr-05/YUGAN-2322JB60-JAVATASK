@@ -1,0 +1,25 @@
+package day03;
+
+public class Overloading {
+
+	    // sum method for integers
+	    public int sum(int a, int b) {
+	        return a + b;
+	    }
+
+	    // sum method for doubles
+	    public double sum(double a, double b) {
+	        return a + b;
+	    }
+
+	    public static void main(String[] args) {
+	    	Overloading calc = new Overloading();
+
+	        // Call overloaded methods
+	        int intResult = calc.sum(5, 10);
+	        double doubleResult = calc.sum(5.5, 4.5);
+
+	        System.out.println("Sum of integers: " + intResult);       
+	        System.out.println("Sum of doubles: " + doubleResult);       
+	    }
+	}

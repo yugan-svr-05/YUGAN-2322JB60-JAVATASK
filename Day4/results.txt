@@ -1,0 +1,4 @@
+StudentName,Total,Average
+John,256,85.33
+Alice,270,90.00
+Bob,210,70.00
